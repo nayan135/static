@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+body {
+    background-color: color-mix(in oklch longer hue, rgb(0, 0, 0) 10%, rgb(255, 255, 255) 30%);
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 2em;
+    padding: 4px;
+    height: auto;
+    width: 2em;
+}
+
+.socials {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    border-width: 100vw;
+}
+
+.s {
+    margin: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.socials {
+    text-color: color-mix(in hwb shorter hue, rgb(255, 2, 213)51 10%, rgb(222, 195, 19) 50%);
+    background-color: color-mix(in hwb longer hue, rgb(36, 36, 251) 30%, red 20%);
+}
+
+a {
+    text-decoration: none;
+    /* color: #000;*/
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.m {
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    width: 40em;
+}
+
+.n {
+    text-align: center;
+}
+
+.gif {
+    height: 50vh;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
