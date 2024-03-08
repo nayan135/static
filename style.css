@@ -52,7 +52,7 @@ a:hover {
     font-family: "Protest Riot", sans-serif;
     font-weight: 900;
     font-size: larger;
-    width: 40em;
+    width: 30em;
 }
 
 .n {
@@ -67,4 +67,23 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     background: transparent;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow: hidden;
+    }
+    html {
+        overflow: hidden;
+    }
+    .gif {
+        height: 30vh;
+        width: auto;
+    }
+    .h1 {
+        position: relative;
+    }
+    .socials {
+        position: absolute;
+    }
 }
