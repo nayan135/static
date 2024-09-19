@@ -37,7 +37,9 @@ i {
     text-color: color-mix(in hwb shorter hue, rgb(255, 2, 213)51 10%, rgb(222, 195, 19) 50%);
     background-color: color-mix(in hwb longer hue, rgb(36, 36, 251) 30%, red 20%);
 }
-
+.socials h2{
+    padding:30%;
+}
 a {
     text-decoration: none;
     /* color: #000;*/
