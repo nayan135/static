@@ -1,63 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+/* Body background color */
+
 body {
-    background-color: color-mix(in oklch longer hue, rgb(0, 0, 0) 10%, rgb(255, 255, 255) 30%);
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
+
+
+/* Centering content */
 
 main {
     display: grid;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    text-align: center;
 }
+
+h1,
+h2 {
+    margin: 0;
+}
+
+
+/* Social media icons */
 
 i {
     font-size: 2em;
-    padding: 4px;
+    padding: 0 10px;
     height: auto;
     width: 2em;
 }
 
+
+/* Socials container */
+
 .socials {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    bottom: 0;
+    bottom: 20px;
     width: 100vw;
-    border-width: 100vw;
+    background-color: #2424fb;
+    color: white;
+    padding: 10px;
 }
 
-.s {
-    margin: 2%;
-    padding-bottom: 1%;
-    display: flex;
-    justify-content: center;
+.socials p {
+    margin: 0;
 }
 
-.socials {
-    text-color: color-mix(in hwb shorter hue, rgb(255, 2, 213)51 10%, rgb(222, 195, 19) 50%);
-    background-color: color-mix(in hwb longer hue, rgb(36, 36, 251) 30%, red 20%);
+.socials h2 {
+    margin-right: 15px;
 }
 
-a {
-    text-decoration: none;
-    /* color: #000;*/
-}
 
-a:hover {
-    text-decoration: none;
-}
-
-.m {
-    text-align: center;
-    font-family: "Protest Riot", sans-serif;
-    font-weight: 900;
-    font-size: larger;
-    width: 30em;
-}
-
-.n {
-    text-align: center;
-}
+/* For larger screens */
 
 .gif {
     height: 50vh;
@@ -69,21 +70,20 @@ a:hover {
     background: transparent;
 }
 
+
+/* Responsive design for small screens */
+
 @media (max-width: 600px) {
-    body {
-        overflow: hidden;
-    }
-    html {
-        overflow: hidden;
-    }
     .gif {
         height: 30vh;
         width: auto;
     }
-    .h1 {
-        position: relative;
+    h1,
+    h2 {
+        font-size: 1.2em;
     }
-    .socials {
-        position: absolute;
+    .socials h2 {
+        font-size: 1em;
+        padding: 0;
     }
 }
